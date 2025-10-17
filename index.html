@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silver Bistro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Silver Bistro</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#onas">O nás</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Vitajte v Silver Bistro</h2>
+    <p>Miesto, kde sa stretáva chuť, kvalita a pohoda.</p>
+    <a href="#rezervacia" class="btn">Rezervovať stôl</a>
+  </section>
+
+  <section id="menu">
+    <h2>Naše menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h3>Bistro burger</h3>
+        <p>Šťavnaté hovädzie mäso, čerstvá zelenina a domáca žemľa.</p>
+        <span>9.90 €</span>
+      </div>
+      <div class="menu-item">
+        <h3>Kurací šalát</h3>
+        <p>Grilované kuracie mäso, zelenina a Caesar dressing.</p>
+        <span>7.50 €</span>
+      </div>
+      <div class="menu-item">
+        <h3>Pasta Carbonara</h3>
+        <p>Tradičné cestoviny s pancettou a parmezánom.</p>
+        <span>8.90 €</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="onas">
+    <h2>O nás</h2>
+    <p>
+      Silver Bistro je rodinná reštaurácia s dôrazom na kvalitné suroviny a domácu atmosféru.
+      Každý deň pre vás pripravujeme čerstvé jedlá s láskou.
+    </p>
+  </section>
+
+  <section id="rezervacia">
+    <h2>Rezervácia</h2>
+    <form>
+      <label>Meno:</label>
+      <input type="text" placeholder="Vaše meno" required />
+      <label>Email:</label>
+      <input type="email" placeholder="vas@email.com" required />
+      <label>Dátum a čas:</label>
+      <input type="datetime-local" required />
+      <label>Počet osôb:</label>
+      <input type="number" min="1" max="20" value="2" required />
+      <button type="submit">Odoslať</button>
+    </form>
+  </section>
+
+  <footer id="kontakt">
+    <p>📍 Hlavná 23, Bratislava | ☎️ +421 900 123 456 | ✉️ info@silverbistro.sk</p>
+    <p>&copy; 2025 Silver Bistro</p>
+  </footer>
+</body>
+</html>
